@@ -24,4 +24,5 @@ function exactMatchToList(arr, object){
         return driver[key] == object[key]
 }
    })
+  return newArr.map(function(driver) {return driver.name})
 }
